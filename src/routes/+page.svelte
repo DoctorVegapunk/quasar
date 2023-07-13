@@ -113,7 +113,7 @@ scene.add(particles)
         const renderer = new WebGLRenderer({
             canvas: canvas
         })
-        renderer.setSize(sizes.width * 0.987, sizes.height)
+        renderer.setSize(sizes.width, sizes.height)
         renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2))
         renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2))
         renderer.render(scene, camera)
