@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Faustina:wght@300;400;800&family=Lato:wght@900&family=Raleway&family=Roboto+Slab&family=Roboto:wght@300;400;700&family=Russo+One&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.primary-background{
+    background-color: #8F00FF;
+}
+.titleFont{
+    font-family: 'Arvo', serif;
+}
+.subtitleFont{
+    font-family: 'Raleway', sans-serif;
+}
+.buttonFont{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.primaryFont{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.primaryFontLight{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.robotoSlab{
+    font-family: 'Roboto Slab', serif;
+}
+.highlightFont{
+    font-family: 'Russo One', sans-serif;
+}
+.latoExtraBold{
+    font-family: 'Lato', sans-serif;
+}
+.faustinaLight{
+    font-family: 'Faustina', serif;
+    font-weight: 300;
+}
+.faustina{
+    font-family: 'Faustina', serif;
+    font-weight: 400;
+}
+.faustinaExtraBold{
+    font-family: 'Faustina', serif;
+    font-weight: 700;
+}
+
+.circular-background {
+    position: relative;
+    aspect-ratio: 1/1; /* Maintain a 1:1 aspect ratio for the circular background */
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+
+  .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-align: center;
+    font-size:0.6rem
+    /* Additional text styles can be added here */
+  }
+
+  @media (min-width: 768px) {
+    .circular-background {
+      max-width: 75px; /* Adjust the maximum width for desktop */
+    }
+  }
+  
+  .homeSubtitle{
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.51);
+  }
+  .homeSubtitleDark{
+    text-shadow: 2px 3px 3px rgba(255, 255, 255, 0.51);
+  }
+
+  .tier-selected{
+    background-color:#64B0F5 !important;
+    color:white;
+  }
+  .tier-selected #title{
+    
+    font-family: 'Faustina', serif !important;
+    font-weight: 700 !important;
+
+  }
