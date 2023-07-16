@@ -165,7 +165,7 @@
                     tierElement.classList.add('tier-selected')
                     highlightElement.classList.remove('hidden')
                     window.scrollTo({
-                        top: tierElement.offsetTop,
+                        top: tierElement.offsetTop - 75,
                         behavior: 'smooth'
                     });
 

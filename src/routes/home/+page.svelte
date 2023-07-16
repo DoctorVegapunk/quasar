@@ -319,6 +319,13 @@
     })
 
 
+    const scrollToElement = (elementID) =>{
+        const element = document.getElementById(elementID)
+        element.scrollIntoView({
+            behavior:"smooth"
+        })
+    }
+
 
 
 
@@ -361,8 +368,7 @@
                         <p  id="pageHighlight3">5+ Years of Experience</p>
                     </span>
                     <div class="w-20 mx-auto mt-6 hidden md:block">
-                        <a href="#developerSection" >
-                        <div class="circular-background bg-cover bg-center cursor-pointer" id="scrollDownContainer">
+                        <button on:click={()=>{scrollToElement("developerSection")}} class="circular-background bg-cover bg-center cursor-pointer" id="scrollDownContainer">
                             {#if themeValue === "light"}
                                 
                             <img src="/Icons/scroll_down_background.png" alt="Circular Background" class="w-full h-full object-cover" />
@@ -381,8 +387,7 @@
                             </div>
                             {/if}
                             
-                        </div>
-                        </a>
+                        </button>
                     </div>
                 
                 </div>
@@ -444,6 +449,19 @@
                         </div>
                        
                     </div>
+                    
+                    <!-- <div class="mx-24">
+                        <hr class="opacity-10 my-12"/>
+                        <div class="flex mx-6">
+                            <img src="/devs/bill.jpg" alt="Bill" class="h-44 rounded-lg"  />
+                            <div class="px-10 text-white">
+                                <p class="latoExtraBold text-2xl">Bill Mwendwa</p>
+                                <p class="text-xl mb-3">Bill Mwendwa</p>
+                                <p class="primaryFontLight mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus illo culpa incidunt ipsa inventore. Obcaecati amet ipsum, porro esse odit, cupiditate autem nostrum laboriosam inventore nulla quidem deserunt, eos neque.</p>
+                                <a class="float-right primaryFontLight underline" href="https://www.google.com" target="_blank">Visit Protfolio</a>
+                            </div>
+                        </div>
+                    </div> -->
                 </div>
             </div>
         </div>

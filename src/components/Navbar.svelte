@@ -144,8 +144,8 @@
     <img alt="Quasar Web Solutions Logo" src="/Icons/logo.png" class="w-14">
     <p class="titleFont my-auto ml-3 text-2xl italic">QWS</p>
     <span class="flex [&>a]:mx-4 [&>a]:my-auto [&>p]:robotoSlab mx-auto">
-        <a href="/home" class="pageLink py-1 relative flex">
-            <span class="relative z-10">
+        <a href="/home" class="py-1 relative flex">
+            <span class="pageLink relative z-10">
                 Home
             </span>
             <div class="pageLinkGraphic">
@@ -153,8 +153,8 @@
                 <span class="absolute left-1 py-2 top-4 bg-purple-600"></span>
             </div>
         </a>
-        <a href="/gallery" class="pageLink py-1 relative flex">
-            <span class="relative z-10" >
+        <a href="/gallery" class="py-1 relative flex">
+            <span class="pageLink relative z-10" >
                 Gallery
             </span>
             <div class="pageLinkGraphic">
@@ -162,8 +162,8 @@
                 <span class="absolute left-1 py-2 top-4 bg-purple-600"></span>
             </div>
         </a>
-        <a href="/pricing" class="pageLink py-1 relative flex">
-            <span class="relative z-10" >
+        <a href="/pricing" class="py-1 relative flex">
+            <span class="pageLink relative z-10" >
                 Pricing
             </span>
             <div class="pageLinkGraphic">
@@ -171,8 +171,8 @@
                 <span class="absolute left-1 py-2 top-4 bg-purple-600"></span>
             </div>
         </a>
-        <a href="/contact" class="pageLink py-1 relative flex">
-            <span class="relative z-10" >
+        <a href="/contact" class="py-1 relative flex">
+            <span class="pageLink relative z-10" >
                 Contact
             </span>
             <div class="pageLinkGraphic">
