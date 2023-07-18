@@ -73,23 +73,15 @@
             </button>
         </center>
         <div>
-            <div class="grid grid-cols-2 md:grid-cols-3 md:mx-24 mt-24">
+            <div class="grid grid-cols-2 md:mx-24 mt-24">
                 <div class="flex mx-auto">
                     <img alt="Instagram Icon" src="/Icons/instagram.png" class="w-10 h-10 my-auto" />
                     <p class="my-auto robotoSlab ml-2 md:ml-6 text-xs md:text-lg">@quasar.tech</p>
                 </div>
                 <div class="flex mx-auto">
-                    <img alt="Instagram Icon" src="/Icons/whatsapp.png" class="w-10 h-10 my-auto" />
-                    <p class="my-auto robotoSlab ml-2 md:ml-6 text-xs md:text-lg">+254797215519</p>
-                </div>
-                <div class="hidden md:flex mx-auto">
                     <img alt="Twitter Icon" src="/Icons/twitter.png" class="w-10 h-10 my-auto" />
                     <p class="my-auto robotoSlab ml-2 md:ml-6 text-xs md:text-lg">@quasar.tech</p>
                 </div>
-            </div>
-            <div class="md:hidden flex mx-auto w-fit my-10">
-                <img alt="Instagram Icon" src="/Icons/twitter.png" class="w-10 h-10 my-auto" />
-                <p class="my-auto robotoSlab ml-2 md:ml-6 text-xs md:text-lg">@quasar.tech</p>
             </div>
             
         </div>
